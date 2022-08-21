@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y*pc)gb7gd8y$b)8z8&=&cm=y5a!@pq+2d293(5=7dq&_)w&a9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['35.198.46.105']
 
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'cursopython',
-        'PASSWORD': 'curs0Pyth0n@123',
+        'PASSWORD': 'curs0Pyth0n@169',
     }
 }
 
