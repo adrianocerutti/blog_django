@@ -13,9 +13,25 @@ O Projeto utiliza:
 
     https://github.com/adrianocerutti/blog_django.git
 
-# Instalando as dependências
+# Criando o ambiente virtual
 
-Abra o terminal do sistema ou o terminal do próprio VS Code e digite o comando:
+É necessário criar o ambiente virtual para que sejam instaladas as dependências do projeto, então abra o
+projeto no PyCharm ou VS Code. No PyCharm provavelmente vai identificar e te informar sobre a criação do ambiente.
+No VS Code, abra o terminal e digite o seguinte comando:
+
+    python<versão_do_python_instalada> -m venv venv
+
+# Ativando ambiente virtual (venv) e instalando as dependências
+
+Você precisa estar com o ambiente virtual ativo antes de instalar as dependências. Se o projeto for aberto no PyCharm
+ele provavelmente vai identificar e vai ativar o ambiente virtual, caso seja aberto no VS Code, abra o terminal do
+próprio VS Code e digite o comando:
+
+    source nome_da_virtualenv/bin/activate (Linux ou macOS)
+    nome_da_virtualenv/Scripts/Activate (Windows)
+
+Se o projeto for aberto no PyCharm ele provavelmente vai identificar o arquivo e instalar as dependências,
+caso seja aberto no VS Code, abra o terminal do sistema ou o terminal do próprio VS Code e digite o comando:
 
     pip install -r requirements.txt
 
